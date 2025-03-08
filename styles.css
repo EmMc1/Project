@@ -94,7 +94,6 @@ html, body {
     /* Hamburger hidden on larger screens */
     .hamburger {
         display: none;
-        background:#ff8b76;
       }
   } 
 
