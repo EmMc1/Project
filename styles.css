@@ -125,7 +125,7 @@ flex-wrap: wrap;
 
 /*Image 1 for card 1 */
 .weather1 {
-  background-image: url('/Images/weather1.png'); /* Path to your local image */
+  background-image: url('Images/weather1.png'); /* Path to your local image */
   background-size: cover; /* Ensures the image covers the container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -134,7 +134,7 @@ flex-wrap: wrap;
 
 /*Image 2 for card 2*/
 .weather2{
-  background-image: url('/Images/weather2.jpg') ;
+  background-image: url('Images/weather2.jpg') ;
   background-size: cover; /* Ensures the image covers the container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -143,7 +143,7 @@ flex-wrap: wrap;
 
 /*Image 3 for card 3*/
 .weather3{
-  background-image: url('/Images/weather3.jpg');
+  background-image: url('Images/weather3.jpg');
   background-size: cover; /* Ensures the image covers the container */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
