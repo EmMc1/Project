@@ -1,0 +1,12 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Check the Weather Website\r This is a simple weather-checking website that allows users to input a city name and view the weather for that city. It also provides weather-related fun facts using a carousel slider. The website is built using HTML, CSS (Bootstrap), and JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

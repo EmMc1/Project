@@ -1,0 +1,16 @@
+{
+    "city": "Dublin",
+    "country": "Ireland",
+    "forecast": [
+        {
+            "time": "2025-03-08 10:00",
+            "temperature": 12,
+            "description": "Partly Cloudy"
+        },
+        {
+            "time": "2025-03-08 14:00",
+            "temperature": 15,
+            "description": "Sunny"
+        }
+    ]
+}
