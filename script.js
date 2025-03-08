@@ -1,17 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const apiKey = 'e634d5e076ad0902af407be6dcb6639d';
-    const weatherContainer = document.getElementById("weather");
+    const apiKey = 'e634d5e076ad0902af407be6dcb6639d'; //Open weather API key
+    const weatherContainer = document.getElementById("weather"); //Display weather data or errors
     const cityDisplay = document.getElementById("city");
     const errorDisplay = document.getElementById('error');
     const cityInput = document.getElementById('cityInput');
     
+    //Weather to display in degrees
     const units = 'metric';
-    const temperatureSymbol = units === 'imperial' ? "°F" : "°C";
+    const temperatureSymbol = units === 'imperial' ? "°F" : "°C"; //sets temperature
 
        // Fetch weather when button is clicked
        document.getElementById('submitBtn').addEventListener('click', fetchWeather);
 
-    async function fetchWeather() {
+    //fetch weather
+       async function fetchWeather() {
         try {
             weatherContainer.innerHTML = ''; //Clear previous data
             errorDisplay.textContent = '';  //Clear previous errors
@@ -35,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             const data = await response.json();
-
+             // Display city name
             cityDisplay.textContent = `Hourly Weather for ${data.city.name}, ${data.city.country}`;
 
             data.list.forEach(hourlyWeatherData => {
@@ -50,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
             cityInput.value = '';
         }
     }
-
+     //convert to local time
     function convertToLocalTime(dt) {
         const date = new Date(dt * 1000);
         const options = {
