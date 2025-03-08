@@ -58,23 +58,21 @@
 <body>
 
     
-    <div class="container- pt-5 d-flex justify-content-center align-items-center pt-5 bg-primary text-white"> <!--Importing of Bootstrap CSS for styling and layout -->
+    <div class="container- pt-5 d-flex justify-content-center align-items-center pt-5 bg-primary text-white" > <!--Importing of Bootstrap CSS for styling and layout -->
         <h1> Check the Weather </h1>
         </div>
 
-    <!-- Main Heading -->
-    <div class="container pt-5 bg-primary text-white">
-        <h1>What is the weather like today in...</h1>
-    </div>
 
-    <!-- City input and button -->
-    <input type="text" id="cityInput" placeholder="Input City" />
-    <button class="btn btn-info" onclick="fetchWeather()">Submit</button>
+ <!--  User to input  the city name and a button to submit -->
+<h1>What is the weather like today in...</h1>
+<input type="text" id="cityInput" name="cityInput" placeholder="Input City" />
+ <button id="submitBtn">Submit</button>  <!--Submit button -->
 
-    <!-- Error message and city name -->
-    <h5 id="error"></h5>
-    <h3 id="city"></h3>
-    <div id="weather"></div>
+ <!--Error message and city name -->
+ <h5 id="error"></h5>
+<h3 id="city"></h3>
+<div id="weather"></div>
+
 
     <!-- Carousel for Weather Fun Facts -->
     <div class="container mt-5">
@@ -128,38 +126,13 @@
     </footer>
 
 
-    <!-- JavaScript -->
-    <script>
-        // Replace with your OpenWeatherMap API Key
-        const apiKey = 'YOUR_API_KEY';
-
-        function fetchWeather() {
-            const city = document.getElementById('cityInput').value;
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-
-            fetch(url)
-                .then(response => response.json())
-                .then(data => {
-                    if (data.cod === '404') {
-                        document.getElementById('error').innerHTML = 'City not found';
-                        document.getElementById('weather').innerHTML = '';
-                    } else {
-                        document.getElementById('city').innerHTML = `Weather in ${data.name}, ${data.sys.country}`;
-                        document.getElementById('weather').innerHTML = `
-                            <p>${data.weather[0].description}</p>
-                            <p>Temperature: ${data.main.temp}°C</p>
-                            <p>Humidity: ${data.main.humidity}%</p>
-                        `;
-                    }
-                })
-                .catch(error => {
-                    document.getElementById('error').innerHTML = 'Error fetching weather data';
-                });
-        }
-    </script>
+  
+  
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
 
 </body>
 
