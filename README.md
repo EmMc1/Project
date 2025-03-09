@@ -15,14 +15,19 @@ JavaScript: For handling user input and fetching weather data, along with handli
 Bootstrap 5: For responsive design and pre-built UI components like the navbar, carousel, and buttons.
 API : A weather API is integrated to fetch real-time weather data from OpenWeatherMap
 
-Installation
+Hosted Site 
 The website has been deployed on github pages at https://emmc1.github.io/Project/ 
-The repository: https://github.com/EmMc1/Project - Available publicly
+The repository: https://github.com/EmMc1/Project - Available publicly   
+
+Local Installation
+To set up CheckTheWeather locally, follow these steps:
+Clone the Repository
+git clone: https://github.com/EmMc1/Project.git 
 
 
 Install Dependencies: The website uses Bootstrap 5 which is linked via CDN, so you don’t need to install any additional dependencies.
 
-Open the website: You can simply open index.html in your browser:
+Open the website: https://emmc1.github.io/Project/  
 
 
 /weather-website
@@ -35,13 +40,21 @@ Open the website: You can simply open index.html in your browser:
 │   └── Fog.jpg
 ├── /styles.css         # Custom CSS for additional styling
 └── script.js           # Custom JavaScript for handling city input and weather data
-Usage
-1. Check the Weather
-Users can input a city name in the text box and click the "Submit" button to fetch the weather.
+usage.
+
+Features:
+ Check the Weather- Users can input a city name in the text box and click the "Submit" button to fetch the weather.
 The weather data will be displayed on the page below the city name. Weather comes from OpenWeatherMap.
-1. Weather Fun Facts Carousel
+ Weather Fun Facts Carousel
 A carousel of fun facts for kids related to weather will rotate automatically, showcasing interesting facts such as the coldest recorded temperature, the frequency of thunderstorms, and the nature of fog 
 Customizing the Website
 Styles: Uniformity across web pages in relation to colour, fonts and  layout
 API Integration: To fetch live weather data, using API from OpenWeatherMap
+Card components and hidden information
 
+
+Links to lighthouse report https://drive.google.com/file/d/1POfeaKJA1Cm36QFY6uyCRkID_RC0EhNj/view?usp=drive_link 
+
+Link to accessibilty report https://drive.google.com/file/d/13TWDwrfNcker6kwM-joZMeNv5te698az/view?usp=drive_link 
+
+Contact: Thank you for using CheckTheWeather. If you have any questions or feedback please contact me at CheckTheWeather@gmail.com 
