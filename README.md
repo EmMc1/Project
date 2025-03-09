@@ -6,6 +6,7 @@ City Input: Users can input the name of any city to check the weather.
 Weather Information: The weather data will be displayed for the city entered.
 Error Handling: In case of an invalid city or API failure, the site will show an error message.
 Weather Fun Facts Carousel: A carousel slider that presents fun facts about the weather, such as extreme temperatures, thunderstorm statistics, and fog facts.
+
 Responsive Design: The website is built with Bootstrap for a mobile-friendly and responsive layout.
 Technologies Used
 HTML: For the structure and content of the website.
@@ -15,21 +16,15 @@ Bootstrap 5: For responsive design and pre-built UI components like the navbar, 
 API : A weather API is integrated to fetch real-time weather data from OpenWeatherMap
 
 Installation
-Follow these steps to set up the website on your local machine: 
-The website has been deployed on github pages at https://emmc1.github.io/Project/
-Clone the repository:
+The website has been deployed on github pages at https://emmc1.github.io/Project/ 
+The repository: https://github.com/EmMc1/Project - Available publicly
 
 
 Install Dependencies: The website uses Bootstrap 5 which is linked via CDN, so you don’t need to install any additional dependencies.
 
 Open the website: You can simply open index.html in your browser:
 
-bash
-Copy
-open index.html
-File Structure
-bash
-Copy
+
 /weather-website
 ├── index.html          # The homepage of the website
 ├── about.html          # About page
@@ -43,11 +38,10 @@ Copy
 Usage
 1. Check the Weather
 Users can input a city name in the text box and click the "Submit" button to fetch the weather.
-The weather data will be displayed on the page below the city name.
-2. Weather Fun Facts Carousel
-A carousel of fun facts related to weather will rotate automatically, showcasing interesting facts such as the coldest recorded temperature, the frequency of thunderstorms, and the nature of fog.
+The weather data will be displayed on the page below the city name. Weather comes from OpenWeatherMap.
+1. Weather Fun Facts Carousel
+A carousel of fun facts for kids related to weather will rotate automatically, showcasing interesting facts such as the coldest recorded temperature, the frequency of thunderstorms, and the nature of fog 
 Customizing the Website
-Styles: Customize the look and feel of the website by editing styles.css. You can change colors, fonts, or layout as needed.
-API Integration: To fetch live weather data, integrate a weather API like OpenWeatherMap:
-Sign up at OpenWeatherMap and get an API key.
-Update the JavaScript to call the API and display live weather data instead of static content.
+Styles: Uniformity across web pages in relation to colour, fonts and  layout
+API Integration: To fetch live weather data, using API from OpenWeatherMap
+
