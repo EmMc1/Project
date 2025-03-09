@@ -1,5 +1,5 @@
 Check the Weather Website
-This is a simple weather-checking website that allows users to input a city name and view the weather for that city. It also provides weather-related fun facts using a carousel slider. The website is built using HTML, CSS (Bootstrap), and JavaScript.
+This is a  weather-checking website designed for primary school teachers and students that allows users to input a city name and view the weather for that city. It also provides weather-related fun facts using a carousel slider. The website is built using HTML, CSS (Bootstrap), and JavaScript.
 
 Features
 City Input: Users can input the name of any city to check the weather.
@@ -12,20 +12,14 @@ HTML: For the structure and content of the website.
 CSS: Custom styles using Bootstrap and custom styles for the page layout.
 JavaScript: For handling user input and fetching weather data, along with handling dynamic updates for the weather.
 Bootstrap 5: For responsive design and pre-built UI components like the navbar, carousel, and buttons.
-API (Optional): A weather API could be integrated to fetch real-time weather data (e.g., OpenWeatherMap, WeatherAPI).
-Installation
-Follow these steps to set up the website on your local machine:
+API : A weather API is integrated to fetch real-time weather data from OpenWeatherMap
 
+Installation
+Follow these steps to set up the website on your local machine: 
+The website has been deployed on github pages at https://emmc1.github.io/Project/
 Clone the repository:
 
-bash
-Copy
-git clone https://github.com/your-username/weather-website.git
-Navigate into the project directory:
 
-bash
-Copy
-cd weather-website
 Install Dependencies: The website uses Bootstrap 5 which is linked via CDN, so you don’t need to install any additional dependencies.
 
 Open the website: You can simply open index.html in your browser:
